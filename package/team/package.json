@@ -1,0 +1,9 @@
+{
+  "name": "@sdd-team/team",
+  "version": "0.0.1",
+  "license": "ISC",
+  "main": "bundle/index.js",
+  "files": [
+    "bundle"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}

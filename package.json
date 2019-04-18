@@ -7,6 +7,7 @@
 	"private": true,
 	"TODO:": "Complete package settings",
 	"workspaces": [
+		"sandbox",
 		"team",
 		"ts-transformer"
 	]

@@ -6,5 +6,8 @@
 	"license": "ISC",
 	"private": true,
 	"TODO:": "Complete package settings",
-	"workspaces": []
+	"workspaces": [
+		"team",
+		"ts-transformer"
+	]
 }

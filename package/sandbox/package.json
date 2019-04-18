@@ -1,9 +1,12 @@
 {
   "name": "sandbox",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "bundle/index.js",
   "license": "ISC",
   "private": true,
+  "files": [
+    "bundle"
+  ],
   "devDependencies": {
     "typescript": "^3.4.5"
   }

@@ -1,0 +1,10 @@
+{
+	"name": "@sdd-team/ts-transformers",
+	"version": "0.0.1",
+	"main": "dist/index.js",
+	"license": "ISC",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	]
+}

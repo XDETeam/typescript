@@ -1,8 +1,10 @@
 import { SignInRequest } from "@sdd-team/team";
 
 const request: SignInRequest = {
-    firstName: "Alice",
-    login: "alice"
+    login: "alice",
+    password: "!qa2Ws3eD"
 };
+
+console.log("Hey");
 
 export default [];

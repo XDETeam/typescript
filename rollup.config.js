@@ -1,20 +1,21 @@
 import typescript from "rollup-plugin-typescript2";
 
-function component(name) {
+function packages(name) {
     return {
-        input: `./${name}/index.tsx`,
+        input: `./package/${name}/src/index.ts`,
         output: {
-            file: `./${name}/index.js`,
+            file: `./package/${name}/dist/index.js`,
             format: "cjs"
         },
         plugins: [
             typescript({
-                tsconfig: `${name}/tsconfig.json`
+                tsconfig: `./package/${name}/tsconfig.json`
             })
         ]
     }
 }
 
 export default [
-    component("sandbox")
+    packages("team"),
+    packages("sandbox")
 ]

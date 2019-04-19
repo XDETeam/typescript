@@ -7,16 +7,20 @@
 	"private": true,
 	"TODO:": "Complete package settings",
 	"workspaces": [
-		"sandbox",
-		"team",
-		"ts-transformer"
+		"package/*"
 	],
 	"scripts": {
-		"sandbox": "rollup --config rollup.config.js"
+		"build": "tsc --build ./package",
+		"watch": "tsc --build --watch ./package",
+		"clean-dist": "rimraf package/*/dist",
+		"clean": "yarn clean-dist",
+		"sandbox": "rollup --config rollup.config.js && node package/sandbox/dist/index.js"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
+		"rimraf": "^2.6.3",
 		"rollup": "^1.11.3",
-		"rollup-plugin-typescript2": "^0.21.0"
+		"rollup-plugin-typescript2": "^0.21.0",
+		"typescript": "^3.4.5"
 	}
 }

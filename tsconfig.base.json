@@ -8,6 +8,10 @@
 		"declaration": true,
 		"declarationMap": true,
 		"strict": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true
 	}
 }

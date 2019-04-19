@@ -16,6 +16,7 @@ function packages(name) {
 }
 
 export default [
+    packages("ts-transformers"),
     packages("team"),
     packages("sandbox")
 ]

@@ -12,8 +12,8 @@
 	"scripts": {
 		"build": "tsc --build ./package",
 		"watch": "tsc --build --watch ./package",
-		"clean-dist": "rimraf package/*/dist",
-		"clean": "yarn clean-dist",
+		"clean:dist": "rimraf package/*/dist",
+		"clean": "yarn clean:dist",
 		"sandbox": "rollup --config rollup.config.js && node package/sandbox/dist/index.js"
 	},
 	"devDependencies": {

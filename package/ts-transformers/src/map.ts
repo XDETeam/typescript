@@ -1,6 +1,10 @@
 import ts from "typescript";
 import { Visitor } from "./Visitor";
 
+// TODO: Tree can be organized using tree of abstract processor. For example,
+//  ConversionTransformer that will accept ts.Node, check if it is AsExpression,
+//  extract type information, instance, assignment details and dispatch this to
+//  specific transformers.
 // TODO: Tests (e.g. import { Map as TestMap } from "....")
 // TODO: Consider other possible options for conversion DSL. May be support
 // several ones:

@@ -1,4 +1,5 @@
-import ts from "typescript";
+import * as ts from "typescript";
+/*
 import { SignInRequest, Account } from "@sdd-team/team";
 import { Map, map } from "@sdd-team/ts-transformers"; //TODO:
 
@@ -6,10 +7,9 @@ const alice: Account = {
     firstName: "Alice",
     login: "alice",
     password: "!qa2Ws3eD"
-}
+};
 
 const signIn1 = alice as Map<SignInRequest>;
-
 const rootFile = "./package/sandbox/src/index.ts";
 
 // TODO: Make transformation utils reusable.
@@ -37,3 +37,6 @@ const result = program.emit(undefined, undefined, undefined, undefined, {
         transformer(program)
     ]
 });
+*/
+
+console.log(1+1);

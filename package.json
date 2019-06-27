@@ -17,10 +17,12 @@
 		"sandbox": "rollup --config rollup.config.js && node package/sandbox/dist/index.js"
 	},
 	"devDependencies": {
-		"eslint": "^5.16.0",
+		"eslint": "^6.0.1",
 		"rimraf": "^2.6.3",
-		"rollup": "^1.11.3",
-		"rollup-plugin-typescript2": "^0.21.0",
-		"typescript": "^3.4.5"
+		"rollup": "^1.17.0",
+		"rollup-plugin-typescript2": "^0.22.0",
+		"ts-node": "^8.3.0",
+		"tslint": "^5.18.0",
+		"typescript": "^3.5.3"
 	}
 }

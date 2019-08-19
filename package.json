@@ -1,5 +1,5 @@
 {
-	"name": "@sdd-team/es",
+	"name": "@sde/workspaces",
 	"version": "0.0.1",
 	"repository": "https://github.com/StanEgo/sdd-es.git",
 	"author": "stan <stanislav@yarmonov.pro>",
@@ -7,18 +7,18 @@
 	"private": true,
 	"TODO:": "Complete package settings",
 	"workspaces": [
-		"package/*"
+		"packages/*"
 	],
 	"scripts": {
-		"build": "tsc --build ./package",
-		"watch": "tsc --build --watch ./package",
-		"clean:dist": "rimraf package/*/dist",
+		"build": "tsc --build ./packages",
+		"watch": "tsc --build --watch ./packages",
+		"clean:dist": "rimraf packages/*/dist",
 		"clean": "yarn clean:dist",
-		"sandbox": "rollup --config rollup.config.js && node package/sandbox/dist/index.js"
+		"sandbox": "rollup --config rollup.config.js && node packages/sandbox/dist/index.js"
 	},
 	"devDependencies": {
 		"eslint": "^6.0.1",
-		"rimraf": "^2.6.3",
+		"rimraf": "^2.7.1",
 		"rollup": "^1.17.0",
 		"rollup-plugin-typescript2": "^0.22.0",
 		"ts-node": "^8.3.0",

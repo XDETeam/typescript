@@ -1,4 +1,8 @@
+TODO:
+
 ## Conventions
+
+### tsconfig.json
 
 * It probably would be better to have ES2015 module and target as default. It is
   a good balance between features and compatibility/support. Legacy modes like

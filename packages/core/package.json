@@ -4,12 +4,21 @@
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "private": true,
+
   "scripts": {
-    "build": "tsc -p ./tsconfig.prod.json",
-    "test": "run-s build jest",
-    "clean": "rimraf node_modules lib types",
-	"jest": "jest"
+    "clean:es5": "rimraf es5",
+    "clean:es2015": "rimraf es2015",
+    "clean:types": "rimraf types",
+    "clean": "run-p clean:*",
+  
+    "build:es5": "tsc -p tsconfig.es5.json",
+    "build:es2015": "tsc",
+    "build": "run-p build:*",
+
+    "test:jest": "jest",
+    "test": "run-s build test:jest"
   },
+
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "jest": "^24.8.0",

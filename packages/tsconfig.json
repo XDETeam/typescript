@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"target": "es2015",
+		"lib": ["dom", "dom.iterable", "esnext"],
+
+		"strict": true,
+
+		"declaration": true,
+		"declarationDir": "types",
+
+		"esModuleInterop": true
+	},
+
+	"exclude": [
+		"**/*.spec.ts"
+	]
+}

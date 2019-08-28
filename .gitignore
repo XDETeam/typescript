@@ -3,4 +3,5 @@ node_modules/
 
 packages/*/es5/
 packages/*/es2015/
+packages/*/cjs/
 packages/*/types/

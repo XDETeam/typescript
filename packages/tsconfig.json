@@ -1,16 +1,11 @@
 {
 	"compilerOptions": {
-		"module": "esnext",
-		"moduleResolution": "node",
-		"target": "es2015",
-		"lib": ["dom", "dom.iterable", "esnext"],
-
-		"strict": true,
-
-		"esModuleInterop": true
+		"composite": true
 	},
 
-	"exclude": [
-		"**/*.spec.ts"
-	]
+	"files": [],
+
+    "references": [
+        { "path": "./core" }
+    ]
 }

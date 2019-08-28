@@ -7,9 +7,6 @@
 
 		"strict": true,
 
-		"declaration": true,
-		"declarationDir": "types",
-
 		"esModuleInterop": true
 	},
 

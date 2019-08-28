@@ -3,6 +3,7 @@
 
 	"compilerOptions": {
 		"outDir": "es2015",
+		"declaration": true,
 		"declarationDir": "types"
 	},
 

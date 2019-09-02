@@ -5,7 +5,6 @@
 node_modules/
 
 # --- TypeScript start ---
-
 # commonjs outDir
 packages/*/cjs/
 

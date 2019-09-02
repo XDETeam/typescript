@@ -2,8 +2,8 @@
 	"extends": "../tsconfig.base.json",
 
 	"compilerOptions": {
-		"outDir": "es2015",
-		"declaration": true,
+		"rootDir": "src",
+		"outDir": "es5",
 		"declarationDir": "types"
 	},
 

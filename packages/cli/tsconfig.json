@@ -3,8 +3,7 @@
 
 	"compilerOptions": {
 		"rootDir": "src",
-		"outDir": "cjs",
-		"module": "commonjs",
+		"outDir": "es5",
 		"declarationDir": "types"
 	},
 

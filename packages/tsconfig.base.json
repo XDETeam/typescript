@@ -1,13 +1,15 @@
 {
 	"compilerOptions": {
 		"composite": true,
-		"module": "esnext",
+
+		"module": "commonjs",
+		"target": "es5",
 		"moduleResolution": "node",
-		"target": "es2015",
-		"lib": ["dom", "dom.iterable", "esnext"],
 
 		"strict": true,
 
+		"resolveJsonModule": true,
+		"declarationMap": true,
 		"esModuleInterop": true
 	},
 

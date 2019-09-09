@@ -1,7 +1,7 @@
 {
 	"name": "@sde/workspaces",
 	"version": "0.0.1",
-	"repository": "https://github.com/StanEgo/sdd-es.git",
+	"repository": "https://github.com/StanEgo/sde-typescript.git",
 	"author": "stan <stanislav@yarmonov.pro>",
 	"license": "ISC",
 	"private": true,

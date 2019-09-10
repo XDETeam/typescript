@@ -4,42 +4,74 @@ sample of the application being development through this guide. So let's design
 it from the scratch.
 
 ## Changes
-One main thing that should be accepted without doubts is that everything you did
-yesterday might be changed tomorrow. And application development itself from the
-first steps is a sequence of small changes. This is how it evolves.
+TODO:Agility, Volatility (I dislike flexibility and scalability).
 
-So the most important thing is to build environment, platform for changes. Not
-an application itself.
+The only thing that stays unchanged in the development process is that everything
+will be changed. Something sooner, another later. Nothing will stay the same
+forever.
 
-## Ubiquitous language 
-This is what is usually called DSL (domain-specific language). And an essential
-point of the succesfull application development is that this is a primary
-programming language for the application. All other are temporary ones that can
-be replaced tomorrow (see [Changes](#changes)).
+And application we are developing today may become completely different next
+year. So the most foreseeing approach is to create environment, platform for
+changes.
 
-This language is used everywhere. You translate it into TypeScript, SQL, use
-to communicate with stakeholders and teammates.
+This guide will be also a sequence of small steps from a very primitive solutions
+to the most useful ones. This is how it evolves.
 
 ## Specification
-Specification is a set of "sentences" in the ubiquitous language and briefly
-consists of noun and verbs.
 
-## Sample
-The most primitive and easy change we can do on the blank page is to start
-working with samples. For stakeholder is is easy to define them, because this
-is what he is dealing on a daily basis with. Our, developers' goal then is to
-find patterns inductively and develop schemas and algorithms.
+### Specification language
+This is a primary language we will use to write applications. It is crafted for
+the particular project and thus it is the best choice for it.
 
-Sample is a vital part of ubiquitous language and are frequently underestimated.
+This language will be used everywhere. We will translate it into TypeScript,
+SQL, web and mobile forms and use to communicate with stakeholders, teammates
+and consumers.
+
+Software designers appreciate abstraction and that's it compared to programming
+languages. Last ones a numerous, subject of changes (see [Changes](#changes)),
+not good to communicate with non-technical people. So if this virtual designer
+will look into this ecosystem, it should definitely decide that such abstract
+language should be defined.
+
+Specification language is close to ubiquitous language in DDD and domain-specific
+languages (DSLs).
+
+### Sample
+Sample is one of the basic implementations of nouns in the language and is what
+we usually start with. Before information from stakeholders will be analysed and
+inductively formalized by experts is exists in this simple form and we can get a
+lot of benefits from it, because samples are always a helpful tool for
+communication.
+
+TODO:Include samples from "Coach Carter" film.
+
+To move the application on let's introduce some basic samples.
 
 ```typescript
 const alice = {
     firstName: "Alice",
-    role: "developer",
-    login: "alice@sde.team",
-    password: "!qa@ws3eD"
+    role: "developer"
+}
+
+const bob = {
+    firstName: "Bob",
+    role: "stakeholder"
+}
+
+const teamServer = {
+    name: "SDE Team Server"
 }
 ```
+
+### Predicate
+
+TODO: Subject act(ion) object. Action = predicate.
+
+### Sentence
+Specification is a set of "sentences" in the specification language and briefly
+consists of noun and verbs.
+
+TODO:Sentence = case
 
 TODO:
 ```

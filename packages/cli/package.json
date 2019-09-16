@@ -8,7 +8,7 @@
     "typings": "src",
       
     "bin": {
-        "sde": "./es5/bin/sde.js"
+        "sde": "./es5/bin/cli"
     },
     
     "scripts": {

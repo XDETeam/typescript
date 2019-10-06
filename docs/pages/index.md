@@ -72,6 +72,7 @@ Specification is a set of "sentences" in the specification language and briefly
 consists of noun and verbs.
 
 TODO:Sentence = case
+TODO:Set of sentences (GWT) = Feature/Chapter.
 
 TODO:
 ```

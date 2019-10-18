@@ -8,7 +8,7 @@
 	],
 	"scripts": {
 		"clean:es5": "rimraf packages/*/es5",
-		"clean": "yarn clean:es5",
+		"clean": "run-p clean:*",
 		"build": "tsc --build ./packages",
 		"watch": "tsc --build --watch ./packages",
 		"dev": "run-s watch"

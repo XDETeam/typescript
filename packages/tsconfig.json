@@ -2,6 +2,7 @@
 	"files": [],
 
     "references": [
+		{ "path": "./types" },
 		{ "path": "./core" },
 		{ "path": "./cli" }
     ]

@@ -1,5 +1,5 @@
 {
-  "name": "@sde/core",
+  "name": "@sde/sandbox",
   "version": "0.0.1",
   "main": "es5",
   "types": "types",

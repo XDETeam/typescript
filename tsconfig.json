@@ -9,10 +9,10 @@
 			"path": "./packages/types"
 		},
 		{
-			"path": "./packages/core"
+			"path": "./packages/cli"
 		},
 		{
-			"path": "./packages/cli"
+			"path": "./packages/sandbox"
 		}
 	]
 }

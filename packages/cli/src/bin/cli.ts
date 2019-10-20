@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { VERSION } from "..";
+import { version } from "..";
 
-console.info(`SDE CLI v${VERSION}`);
+console.info(`SDE CLI v${version}`);

@@ -6,13 +6,13 @@
 	"files": [],
 
 	"references": [{
-			"path": "./packages/types"
+			"path": "packages/types"
 		},
 		{
-			"path": "./packages/cli"
+			"path": "packages/cli"
 		},
 		{
-			"path": "./packages/sandbox"
+			"path": "packages/sandbox"
 		}
 	]
 }

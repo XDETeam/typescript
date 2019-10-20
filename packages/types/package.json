@@ -1,6 +1,6 @@
 {
   "name": "@sde/types",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "es5",
   "types": "types",
   "typings": "src",

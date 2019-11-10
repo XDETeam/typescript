@@ -9,6 +9,9 @@
 			"path": "packages/types"
 		},
 		{
+			"path": "packages/specs/"
+		},
+		{
 			"path": "packages/cli"
 		},
 		{

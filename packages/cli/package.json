@@ -5,7 +5,7 @@
   "types": "types",
   "typings": "src",
   "bin": {
-    "sde": "./es5/bin/cli"
+    "sde": "es5/bin/cli.js"
   },
   "scripts": {
     "clean:es5": "rimraf es5",

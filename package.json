@@ -12,8 +12,7 @@
 		"clean:tsc": "rimraf **/*.tsbuildinfo",
 		"clean": "run-p clean:*",
 		"ts:build": "tsc --build",
-		"ts:watch": "tsc --build --watch",
-		"ts:dev": "tsc --build tsconfig.dev.json --watch",
+		"ts:dev": "tsc --build tsconfig.dev.json --watch --incremental",
 		"dev": "run-s clean ts:dev"
 	},
 	"devDependencies": {

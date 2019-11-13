@@ -1,4 +1,4 @@
-export const project = require("../package.json");
+export const meta = require("../package.json");
 
 export * from "./Nominal";
 export * from "./Dictionary";

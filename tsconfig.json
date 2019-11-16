@@ -6,16 +6,19 @@
 	"files": [],
 
 	"references": [{
-			"path": "packages/types"
+			"path": "packages/cli"
+		},
+		{
+			"path": "packages/gatsby-template"
+		},
+		{
+			"path": "packages/sandbox"
 		},
 		{
 			"path": "packages/specs/"
 		},
 		{
-			"path": "packages/cli"
-		},
-		{
-			"path": "packages/sandbox"
+			"path": "packages/types"
 		}
 	]
 }

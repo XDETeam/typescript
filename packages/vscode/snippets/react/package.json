@@ -1,0 +1,29 @@
+{
+	"name": "snippets-react",
+	"description": "Code snippets for React TypeScript",
+	"version": "0.0.1",
+	"displayName": "React TypeScript code snippets",
+	"publisher": "sde",
+	"galleryBanner": {
+		"theme": "light"
+	},
+	"license": "UNLICENSED",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/StanEgo/sde-typescript"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescriptreact",
+				"path": "./src/react.json"
+			}
+		]
+	}
+}

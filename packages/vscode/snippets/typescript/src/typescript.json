@@ -1,0 +1,31 @@
+{
+	"Create service instance": {
+		"scope": "typescript",
+		"prefix": "csi",
+		"body": [
+			"export interface I${1:${TM_FILENAME_BASE}} {$0}",
+			"",
+			"export class ${1:${TM_FILENAME_BASE}} implements I${1:${TM_FILENAME_BASE}} {",
+			"\t",
+			"}",
+			"",
+			"const ${TM_FILENAME_BASE/(.{1})/${1:/downcase}/}Instance = new ${1:${TM_FILENAME_BASE}}();",
+			"export default ${TM_FILENAME_BASE/(.{1})/${1:/downcase}/}Instance;"
+		]
+	},
+	"Export interface": {
+		"scope": "typescript",
+		"prefix": "ei",
+		"body": "export interface I${1:} {${0}}"
+	},
+	"Export enum": {
+		"scope": "typescript",
+		"prefix": "ee",
+		"body": "export enum ${1:} {${0}}"
+	},
+	"Throw not implemented": {
+		"scope": "typescript",
+		"prefix": "tni",
+		"body": "throw new Error(\"Not implemented\");"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"Create function component": {
+		"scope": "typescriptreact",
+		"prefix": "cfc",
+		"body": [
+			"import React, { FC } from \"react\";",
+			"",
+			"type ${1:${TM_FILENAME_BASE}}Props = {$0};",
+			"",
+			"const ${1:${TM_FILENAME_BASE}}: FC<${1:${TM_FILENAME_BASE}}Props> = props => {",
+			"\treturn ();",
+			"};",
+			"",
+			"export default ${1:${TM_FILENAME_BASE}};"
+		]
+	}
+}

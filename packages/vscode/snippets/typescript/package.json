@@ -1,0 +1,29 @@
+{
+	"name": "snippets-typescript",
+	"description": "Code snippets for TypeScript",
+	"version": "0.0.1",
+	"displayName": "TypeScript code snippets",
+	"publisher": "sde",
+	"galleryBanner": {
+		"theme": "light"
+	},
+	"license": "UNLICENSED",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/StanEgo/sde-typescript"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./src/typescript.json"
+			}
+		]
+	}
+}

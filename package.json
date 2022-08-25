@@ -1,6 +1,6 @@
 {
-	"name": "@sde/workspace",
-	"repository": "https://github.com/StanEgo/sde-typescript.git",
+	"name": "@xde/workspace",
+	"repository": "https://github.com/XDETeam/typescript.git",
 	"author": "stan <stanislav@yarmonov.pro>",
 	"private": true,
 	"workspaces": [

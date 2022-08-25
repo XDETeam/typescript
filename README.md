@@ -1,6 +1,6 @@
-# SDE TypeScript Toolbelt
+# XDE TypeScript Toolbelt
 
-TODO: Using practices from https://sde.team/wiki/typescript
+TODO: Using practices from https://xde.team/wiki/typescript
 
 ## Packages
-@sde/types - responsible for abstractions with no overhead for runtime
+@xde/types - responsible for abstractions with no overhead for runtime

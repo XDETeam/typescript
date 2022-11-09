@@ -15,6 +15,7 @@ export const clone = <T extends {}>(obj: T): typeof obj => {
  * Why this approach?
  * See https://jsperf.com/deep-copy-vs-json-stringify-json-parse/5
  */
+/*TODO:
 export const cloneDeep = <T extends {}>(obj: T): typeof obj => {
   const newObject: T = {} as T;
 
@@ -40,3 +41,4 @@ export const cloneDeep = <T extends {}>(obj: T): typeof obj => {
 
   return newObject;
 };
+*/

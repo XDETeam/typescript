@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc --build ./tsconfig.json",
+	"watch": "tsc --watch --project .\tsconfig.json"
+  }
+}

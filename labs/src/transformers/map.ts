@@ -13,6 +13,7 @@ import { Visitor } from "./Visitor";
 //      const signIn3 = alice.As<SignInRequest>();
 //      const signIn4 = map<SignInRequest>(alice);
 
+/*TODO:
 export function map(root: ts.Node, checker: ts.TypeChecker): ts.Node | undefined {
     // TODO: Consider looking into the parent expressions if there is an
     // assigment or smth else were we can determine target type and use it also
@@ -65,3 +66,4 @@ export function map(root: ts.Node, checker: ts.TypeChecker): ts.Node | undefined
 
     return;
 }
+*/

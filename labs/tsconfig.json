@@ -1,15 +1,8 @@
 {
+	"extends": "../tsconfig.base",
+	
 	"compilerOptions": {
-		"composite": true,
-		"target": "es5",
-		"module": "commonjs",
-		"declaration": true,
 		"outDir": "./.build",
 		"rootDir": "./src",
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true
-	},
-	"exclude": ["src/**/*.spec.ts"]
+	}
 }

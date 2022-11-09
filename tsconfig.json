@@ -2,6 +2,6 @@
 	"files": [],
 	
 	"references": [
-        { "path": "labs" }
+        { "path": "./labs" }
     ]
 }

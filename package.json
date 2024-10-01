@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "@xde/workspace",
+  "version": "0.0.0",
   "scripts": {
     "build": "tsc --build ./tsconfig.json",
     "watch": "tsc --watch --project ./tsconfig.json"

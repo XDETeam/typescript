@@ -34,7 +34,14 @@ export function getTranslation<T>(item: Localized<T>, lang: string | undefined) 
 
 export function useTranslator() {
     const router = useRouter();
-    const { locale } = router;
+	const { locale } = router;
 
     return <T>(item: Localized<T>) => getTranslation(item, locale);
+}
+
+export function usePathTranslator() {
+    const router = useRouter();
+	const { lang } = router.query as { lang: string };
+
+    return <T>(item: Localized<T>) => getTranslation(item, lang);
 }
